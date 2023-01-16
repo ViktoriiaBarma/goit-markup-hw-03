@@ -29,6 +29,12 @@ img {
     height: auto;
 }
 
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
 .container{
     width: 1158px;
     padding: 0 15px;
@@ -41,13 +47,6 @@ img {
 
 .about{
     padding-bottom: 0;
-}
-
-
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
 }
 
 .list-item:not(:last-child){
@@ -79,7 +78,6 @@ img {
 }
 
 .section-text {
-
     color: var(--text-color, grey);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -88,6 +86,10 @@ img {
 
 a{
     text-decoration: none;
+}
+
+.nav-list, .address-list, .quality-list, .work-list ,.team-list{
+    display: flex;
 }
 
 
@@ -100,7 +102,7 @@ a{
     align-items: center;
     justify-content: space-between;
 }
-.secondary-line{
+.navigation{
     display: flex;
     align-items: center;
 }
@@ -124,7 +126,6 @@ a{
 .nav-item:not(:last-child){
     margin-right: 40px;
 }
-
 
 .nav-link{
     display: block;
@@ -169,11 +170,11 @@ a{
     padding-bottom: 188px;
     padding-top: 188px;
 }
+
 .hero-title{
     margin: 0 auto 48px;
 
-
-   font-size: 56px;
+    font-size: 56px;
     line-height: 1.07;
     color: var(--back-color, white);
     letter-spacing: 0.02em;
@@ -181,6 +182,7 @@ a{
     width: 498px;
 
 }
+
 .order{
     padding: 16px 32px;
     margin: auto;
@@ -194,11 +196,13 @@ a{
     width: 169px;
 
 }
+
 .order:hover, .order:focus {
     background-color: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .text-order{    
     font-weight: 500;    
     color: var(--back-color, white);
@@ -218,15 +222,9 @@ a{
     text-align: center;
 }
 
-/*.desc{
-    margin-top: 120px;
-}*/
-
 .box{
     width: 264px;
-
     background-color: #fff;
-
 }
 
 /*Футер*/
@@ -286,9 +284,8 @@ a{
 .project-list{
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
-  padding: 0;
-column-gap: 24px;
+    padding: 0;
+    column-gap: 24px;
     row-gap: 48px;
 }
 
@@ -300,8 +297,9 @@ column-gap: 24px;
 .item:nth-child(3n){
     flex-basis: calc((100% - 72px)/3);
 }
-.inner{
-    padding-left: 16px;
+.project-text-wrap{
+   padding: 32px 16px 32px;
+
 }
 
 .portfolio{
