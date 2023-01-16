@@ -19,47 +19,45 @@
     <title>WEBSTUDIO</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="top-line">
-          <!-- навігація-->
-          <nav class="secondary-line">
-            <a class="logo" href="./index.html">
-              <span class="logo-part">WEB</span>STUDIO</a
-            >
-            <ul class="nav-items">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Studio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- контакти-->
-          <address>
-            <ul class="contact-links">
-              <li class="contact-item">
-                <a href="mailto:info@devstudio.com" class="contact-link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="contact-item">
-                <a href="tel:+11(000)111-11-11" class="contact-link"
-                  >+11(000)111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-    </div>
+    <header class="header">
+      <div class="container header-container">
+        <!-- навігація-->
+        <nav class="secondary-line">
+          <a class="logo" href="./index.html">
+            <span class="logo-part">WEB</span>STUDIO</a
+          >
+          <ul class="list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- контакти-->
+        <address>
+          <ul class="list">
+            <li class="contact-item">
+              <a href="mailto:info@devstudio.com" class="contact-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-item">
+              <a href="tel:+11(000)111-11-11" class="contact-link"
+                >+11(000)111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
     <main>
       <!--Hero Section-->
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="order">
@@ -68,58 +66,66 @@
         </div>
       </section>
       <!--Quality Section-->
-      <section class="section container">
-        <h2 hidden class="section-title">Quality</h2>
-        <ul class="list items">
-          <li class="list-item">
-            <h3 class="section-sub-title">Strategy</h3>
-            <p class="section-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="list-item">
-            <h3 class="section-sub-title">Punctuality</h3>
-            <p class="section-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="list-item">
-            <h3 class="section-sub-title">Diligence</h3>
-            <p class="section-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="list-item">
-            <h3 class="section-sub-title">Technologies</h3>
-            <p class="section-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section about">
+        <div class="container">
+          <h2 hidden class="section-title">Quality</h2>
+          <ul class="list">
+            <li class="list-item desc">
+              <h3 class="section-sub-title">Strategy</h3>
+              <p class="section-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="list-item desc">
+              <h3 class="section-sub-title">Punctuality</h3>
+              <p class="section-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="list-item desc">
+              <h3 class="section-sub-title">Diligence</h3>
+              <p class="section-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="list-item desc">
+              <h3 class="section-sub-title">Technologies</h3>
+              <p class="section-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--What are we doing Section-->
-      <section class="section container">
-        <h2 class="section-title">What are we doing</h2>
-        <ul class="list">
-          <li class="list-item">
-            <img src="./images/page1/foto1.jpg" alt="Desktop" width="360" />
-          </li>
-          <li class="list-item">
-            <img src="./images/page1/foto2.jpg" alt="Mobile" width="360" />
-          </li>
-          <li class="list-item">
-            <img src="./images/page1/foto3.jpg" alt="Adaptation" width="360" />
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What are we doing</h2>
+          <ul class="list">
+            <li class="list-item">
+              <img src="./images/page1/foto1.jpg" alt="Desktop" width="360" />
+            </li>
+            <li class="list-item">
+              <img src="./images/page1/foto2.jpg" alt="Mobile" width="360" />
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/page1/foto3.jpg"
+                alt="Adaptation"
+                width="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our Team Section-->
       <section class="section team">
         <div class="container">
-          <h2 class="section-title desc">Our Team</h2>
+          <h2 class="section-title">Our Team</h2>
           <ul class="list">
             <li class="list-item box">
               <img
